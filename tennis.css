@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+
+header, nav, main, footer {display: block;}
+
+body            {background-color: #000000;
+                color: #000000;
+                font-family: Verdana, Arial, sans-serif;}
+
+h1              {background-color: #226634;
+                text-align: center;
+                line-height: 200%;
+                column-width: 100%;
+                padding: 32px;}
+
+nav             {text-align: center;
+                height: auto;
+                font-weight: bold;
+                float: left;
+                margin: 40px;
+                padding 10px;}
+
+nav a           {margin-top: 20px;}
+
+#wrapper        {width: 80%;
+                margin-right: auto;
+                margin-left: auto;
+                background-color: #226634;}
+
+nav a { text-decoration: none; }
+nav a:link { color: #000000; }
+nav a:visited { color: #000000; }
+nav a:hover { color: #000000; }
+
+ul              {list-style: none;}
+
+main            {margin-left: 175px;
+                background-color: #eeeeba;
+                padding-left: 40px;
+                padding-top: 10px;
+                padding-right: 50px;
+                border-left: 20em;
+                border-left-style: solid;
+                border-left-width: thick;
+                min-height: 1050px;}
+
+#right          {float: right;}
+
+footer          {background-color: #000000;
+                font-size: .60em;
+                font-style: italic;
+                text-align: center;}
+
+.photos         {float: left;
+                margin: 5px;}
+
+.floatleft      {float:left;
+                height: 125px;
+                background-color: #226634;
+                margin-left: 155px;
+                margin-top: 1px;}
+
+@media only screen and (max-width: 1024px) {
+    body            {margin: 0;}
+    wrapper         {width: auto;}
+    main            {margin-left: 0; border-left: none;}
+    nav             {float: none; width: auto; margin-bottom: 0px; padding: 0px;}
+    nav a           {border-style: none; display: inline;}
+    h1, h2          {font-size: 120%;}
+    p               {font-size: 90%}
+    .floatleft      {height: 100px;}
+    
+}
+    
+
+
+
+
+
+
+
+
+
